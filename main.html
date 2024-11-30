@@ -1,16 +1,86 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block or Inline Element Test</title>
+    <style>
+        div {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Test for Button -->
+    <div>
+        <button data-ns-test="block-inline-button">Test1</button>
+        <button data-ns-test="block-inline-button">Test2</button>
+    </div>
+    Answer: Inline
 
+    <!-- Test for Div -->
+    <div>
+        <div data-ns-test="block-inline-div">Test1</div>
+        <div data-ns-test="block-inline-div">Test2</div>
+    </div>
+    Answer: Block
+
+    <!-- Test for Span -->
+    <div>
+        <span data-ns-test="block-inline-span">Test1</span>
+        <span data-ns-test="block-inline-span">Test2</span>
+    </div>
+    Answer: Inline
+
+    <!-- Test for P -->
+    <div>
+        <p data-ns-test="block-inline-p">Test1</p>
+        <p data-ns-test="block-inline-p">Test2</p>
+    </div>
+    Answer: Block
+
+    <!-- Test for Input -->
+    <div>
+        <input data-ns-test="block-inline-input" value="Test1">
+        <input data-ns-test="block-inline-input" value="Test2">
+    </div>
+    Answer: Inline
+
+    <!-- Test for Cite -->
+    <div>
+        <cite data-ns-test="block-inline-cite">Test1</cite>
+        <cite data-ns-test="block-inline-cite">Test2</cite>
+    </div>
+    Answer: Inline
+
+    <!-- Test for Code -->
+    <div>
+        <code data-ns-test="block-inline-code">Test1</code>
+        <code data-ns-test="block-inline-code">Test2</code>
+    </div>
+    Answer: Inline
+
+    <!-- Test for H1 -->
+    <div>
+        <h1 data-ns-test="block-inline-h1">Test1</h1>
+        <h1 data-ns-test="block-inline-h1">Test2</h1>
+    </div>
+    Answer: Block
+
+    <!-- Test for Sup -->
+    <div>
+        <sup data-ns-test="block-inline-sup">Test1</sup>
+        <sup data-ns-test="block-inline-sup">Test2</sup>
+    </div>
+    Answer: Inline
+
+    <!-- Test for Sub -->
+    <div>
+        <sub data-ns-test="block-inline-sub">Test1</sub>
+        <sub data-ns-test="block-inline-sub">Test2</sub>
+    </div>
+    Answer: Inline
 </body>
-
 </html>
